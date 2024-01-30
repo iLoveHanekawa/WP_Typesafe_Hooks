@@ -5,7 +5,7 @@
 ## Motivation
 When the guy who's teaching you how to use WP on youtube, visits the reference for the correct name of the hooks the entire time, something is wrong. PHP is a not a strongly typed language but it lets you use typesafety to your advantage if you opt into it. The wrapper utility does exactly that, instead of leaving you helpless with obscure hooks and filter names and random function names and args, random keys and everything, the wrapper exposes functions that wrap around hooks and also stick to the more "human friendly" names and provide intellisense for arguments to pass. This class is totally for developer experiencen and the proudest novelty of mine. A singleton class example has been provided if you wish to extend the Base Class.
 
-## Example
+## Example 1
 
 ### Instead of doing this.
 
@@ -33,6 +33,8 @@ $filePath = 'script-name', get_template_directory_uri() . '/js/example.js';
 //stuff but defaults are there since in most cases we don't really need all this
 $hooks->addScript($filePath);
 ```
+
+## Example 2
 
 ### Instead of doing this
 
