@@ -21,8 +21,8 @@ add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
 ### Simply use this
 
 ```php
-// has intellisense and omits this 'function as a string' 
-// concept which is incredibly susceptible to typing errors and removes 
+// has intellisense and omits this 'function as a string' concept
+// which is incredibly susceptible to typing errors and removes 
 // the need to remember names and provides type safety across arguments that 
 // should be passed.
 
